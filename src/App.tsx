@@ -20,7 +20,7 @@ function ProtectedRoute({ component: Component }: any) {
 
     
       
-        <div className="font-bold text-2xl tracking-tight text-white">⚡ Vybriq</div>
+        
         <h2 className="text-xl font-semibold">Sign in to continue</h2>
         <p className="text-muted-foreground text-center max-w-sm">
           Your personal AI writing studio. Sign in to access your documents and start creating.
