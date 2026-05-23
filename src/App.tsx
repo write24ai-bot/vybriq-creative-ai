@@ -17,7 +17,7 @@ const queryClient = new QueryClient();
 function ProtectedRoute({ component: Component }: any) {
   return <Component />;
 }
-  if (!isAuthenticated) {
+
     return (
       <div className="min-h-screen bg-background text-foreground flex flex-col items-center justify-center gap-6">
         <div className="font-bold text-2xl tracking-tight text-white">⚡ Vybriq</div>
