@@ -18,7 +18,7 @@ function ProtectedRoute({ component: Component }: any) {
   return <Component />;
 }
 
-    return (
+     return (
       <div className="min-h-screen bg-background text-foreground flex flex-col items-center justify-center gap-6">
         <div className="font-bold text-2xl tracking-tight text-white">⚡ Vybriq</div>
         <h2 className="text-xl font-semibold">Sign in to continue</h2>
