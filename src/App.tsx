@@ -9,7 +9,7 @@ import Dashboard from "@/pages/dashboard";
 import Generate from "@/pages/generate";
 import Documents from "@/pages/documents";
 import DocumentDetail from "@/pages/document-detail";
-import { useAuth } from "@workspace/replit-auth-web";
+
 import { Loader2 } from "lucide-react";
 
 const queryClient = new QueryClient();
